@@ -1,33 +1,47 @@
 ---
-title: 'Hilton Hotel Reservation'
-nextPage: '[[1|Lesson 1: Introduction]]'
+title: 'Tutorial: Hotel Reservation'
+nextPage: '[[1|Lesson 1: Introduction & Setup]]'
 ---
 
-> [!NOTE]
-> This course was originally authored by [Andy Bell](https://github.com/Andy-set-studio) and hosted at [learneleventyfromscratch.com](https://learneleventyfromscratch.com/).
+Over the past 2.5 years, we have been designing and implementing LLM-driven systems from first principles. Our early implementations directly leveraged vendor-provided SDKs and APIs. When LangChain introduced a generalized abstraction layer for LLM orchestration, we adopted it to streamline model integration and prompt management. Despite this, the orchestration of end-to-end business flows remained largely manual and application-specific. To address this, we incrementally developed an internal framework — a lightweight, homegrown version of an Agentic flow engine — continuously refining it as our understanding of Agentic patterns, prompt chaining, and contextual state management evolved. 
+
+
+> [!Note]
+> Our primary domain of expertise lies in building mechanisms that enable non-AI developers to transform conventional business workflows into AI-augmented pipelines. 
+> 
+> This is achieved by programmatically injecting LLM-based decision and interaction nodes into existing deterministic processes, allowing organizations to `Botify` legacy operations with minimal disruption to their underlying logic. 
 >
-> This fork is now maintained by [uncenter](https://github.com/uncenter/).
 
-Welcome to Learn Eleventy! This course is designed to give you a really solid understanding of [Eleventy](https://www.11ty.dev/)—even if you’ve never used it before. Over the course of **31 lessons**, you’ll start with a completely empty directory and finish with a fancy, fully-fledged website.
+In parallel, we have engineered some of the most sophisticated conversational agents in production today — capable of replacing traditional web or mobile interfaces by translating user intent directly into actionable operations. As the Agentic ecosystem matured, we conducted a systematic benchmarking of our internal library against industry-leading frameworks, notably LangChain and LangGraph. 
+- The evaluation criteria included 
+  - architectural modularity, 
+  - abstraction clarity, 
+  - traceability, observability, 
+  - replay-ability, 
+  - and developer friendliness. 
 
-Not only will you have solid skills in Eleventy at the end of this course—you’ll also have skills in semantic HTML, progressive CSS, user experience, accessibility, progressive enhancement and performance. It’s an all-in-one course on building an awesome website!
+The resulting framework, Picoflow, diverges from LangGraph in both philosophy and architecture. Whereas LangGraph emphasizes graph-based task decomposition at a lower level of abstraction, Picoflow focuses a turnkey solution that allows a non-LLM developer to become productive with easy to comprehend, super modular, reusable and composable flow semantics optimized for JavaScript ecosystems. Despite these differences, both share the goal of enabling scalable, observable, and maintainable Agentic systems. 
 
-In fact, why explain what we’re building when I can just show you?
+> [!Note]
+> Ultimately, Picoflow provides an opinionated, (battery included), production-ready orchestration framework that enables JavaScript developers to build complex, AI-native business applications with minimal friction and maximum productivity — achieving rapid productivity without sacrificing control or observability. 
+> 
+> Picoflow can be deploy to any docker environment.
+>
 
-<a href="https://issue33.com">View the demo!</a>
+A summarized high level comparison chart to LangGraph can be found here:
+<a href="https://www.picoflow.io/comparison.html">Picoflow vs. LangGraph</a>
 
-Pretty neat, huh?
 
-Before we dive in, let's take a quick tour of how to use and navigate this site:
+**A word about this tutorial**
+> [!TIP]
+> This tutorial is a demonstration of how to use Picoflow effectively.
+> We created a databases of Hilton Hotels in Portland Oregon and south Washington areas. 
+> Each hotel has a reasonable amount of attributes similar to the real hotel. 
+> We also create a pricing engine that will reflect on a variety of conditions such as amenities choices, room types, holidays, weekends, distance from airport/city center, etc.  
+>
 
-- On the left panel, you'll find a navigation menu that allows you to jump to any lesson in the course. At any time, you can press [[/]] to open the search menu and search for a lesson by name or content.
-- Each lesson is divided into sections and you can navigate to a specific section by clicking on the section title in the table of contents on the right panel.
-- The panel on the right also contains a few other things:
-  - A resources section, which contains useful links for all the tools and resources used in the course.
-  - An "edit this page" button, which allows you to edit the content of the current lesson on GitHub.
-  - And finally, you can bookmark any lesson by pressing the bookmark icon to save it for later.
-- If you ever get lost or want to go back to a previous lesson, you can use the "Previous" and "Next" links at the bottom of each lesson.
-- Don't forget that you can always refer back to the demo site for inspiration or guidance as you work through the lessons.
+
+
 
 Ready? Let's get started!
-Head over to the first lesson by clicking the "Lesson 1: Introduction" link below.
+Head over to the first lesson by clicking the "Lesson 1: Introduction & Setup" link below.
