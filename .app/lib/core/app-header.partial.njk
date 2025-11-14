@@ -3,8 +3,9 @@
 <header class="app-header" x-data x-bind="WindowScroll">
   {% include 'core/nav-toggle.partial.njk' %}
 
-  <a href="/" class="app-header__title">
-    {{ app.title }}
+  <img height=38 src="/images/logo.png" alt="{{ app.title }} logo" class="app-header__title-logo" />
+  <a href="https://www.picoflow.io" class="app-header__title">
+    <span class="app-header__title-text">{{ app.title }}</span>
   </a>
 
   <div class="app-header__search show-md">

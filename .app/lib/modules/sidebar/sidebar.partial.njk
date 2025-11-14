@@ -12,7 +12,7 @@
           {{ '/' | ariaCurrent }}
           class="nav-list__link"
         >
-          {{ 'home' | icon | safe }}
+          {{ 'hotel' | icon | safe }}
           {% set indexQuery = { filter: [['url', 'isEqual', '/' ]] } %}
           {% set indexNote = (collections._notes | query(indexQuery)) | first %}
           <span>{{ indexNote.data.title if indexNote else ('sidebar.sections.main.home_link' | t) }}</span>

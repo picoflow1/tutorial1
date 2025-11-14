@@ -3,7 +3,7 @@ import { defineConfig, createNotesQuery } from './.app/app-config.js';
 import { defineTranslations } from './.app/app-translations.js';
 
 export default defineConfig({
-	title: 'Learn Eleventy',
+	title: 'picoflow.io',
 	description: 'The best way to learn Eleventy is to build something with it.',
 	editThisNote: {
 		url: 'https://github.com/uncenter/learn-eleventy/edit/{{branch}}/{{file}}',
@@ -14,19 +14,14 @@ export default defineConfig({
 	sidebar: {
 		links: [
 			{
-				url: 'https://github.com/uncenter/learn-eleventy',
-				label: 'Learn Eleventy GitHub',
-				icon: 'github',
+				url: 'https://www.picoflow.io',
+				label: 'Home',
+				icon: 'home',
 			},
 			{
-				url: 'https://discord.gg/GBkBy9u',
-				label: 'Eleventy Discord',
-				icon: 'message-circle-question',
-			},
-			{
-				url: 'https://11ty.dev/docs',
-				label: 'Eleventy Documentation',
-				icon: 'book-text',
+				url: 'https://www.linkedin.com/company/picoflow-io',
+				label: 'LinkedIn',
+				icon: 'linkedin',
 			},
 		],
 		sections: [

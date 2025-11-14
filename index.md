@@ -1,5 +1,5 @@
 ---
-title: 'Learn Eleventy'
+title: 'Hilton Hotel Reservation'
 nextPage: '[[1|Lesson 1: Introduction]]'
 ---
 
