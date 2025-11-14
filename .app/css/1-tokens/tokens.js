@@ -3,6 +3,7 @@ export const generateTokens = (theme) => ({
     'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
   "font-family-mono":
     'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
+  "font-family-brand": "'Kaushan Script', cursive",
 
   "font-size-xs": "0.75rem",
   "font-size-sm": "0.875rem",
